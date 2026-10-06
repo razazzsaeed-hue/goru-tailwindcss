@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>News Right Sidebar</title>
+    <link rel="stylesheet" href="./css/all.min.css"/>
+    <link rel="stylesheet" href="../dist/css/output.css"/>
+
+</head>
+<body id="top">
+ <div class="fixed inset-0 z-50 flex justify-center items-center h-screen bg-[#17161b] animate-[fade_3s_forwards]">
+        <div class="relative w-10 h-10">
+            <span class="absolute rounded-full animate-ping inset-1  bg-gray-500"></span>
+            <span class="absolute rounded-full animate-ping inset-2  bg-gray-400"></span>
+            <span class="absolute rounded-full animate-ping inset-3 bg-gray-200"></span>
+        </div>
+    </div>
+
+    <div class="h-10 bg-white"></div>
+    <header class="bg-white sticky top-0 z-40 lg:block hidden">
+        <div class="mx-auto w-[85%]">
+            <div class=" grid grid-cols-12 items-center h-20">
+                <div class="col-span-2">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="goru"/>
+                    </a>
+                </div>
+                <div class="col-span-6">
+                    <nav>
+                        <ul class="flex items-center gap-8">
+                            <li class="relative group"><a href="" class="text-[14px] uppercase font-black">Home</a>
+                                <ul class="absolute top-full left-0 hidden group-hover:block bg-white w-44">
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="index.html">home one</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="index2.html">home two</a></li>
+                                </ul>
+                            </li>
+                            <li class="relative group"><a href="" class="text-[14px] uppercase font-black">shop</a>
+                                <ul class="absolute top-full left-0 hidden group-hover:block bg-white w-44">
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./shopfullwidth.html">shop fullwidth</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./shopleftsidebar.html">shop left sidebar</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./shoprightsidebar.html">shop right sidebar</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./shopdetails.html">shop details</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./cartpage.html">cart page</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./checkout.html">checkout page</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200 hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./wishlist.html">wishlist page</a></li>
+                                </ul>
+                            </li>
+                            <li class="relative group"><a href="" class="text-[14px] uppercase font-black">pages</a>
+                                <ul class="absolute top-full left-0 hidden group-hover:block bg-white w-44">
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./about.html">about page</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./newsletterspage.html">newletter page</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./loginregister.html">login register page</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./404error.html">404 page</a></li>
+                                </ul>
+                            </li>
+                            <li class="relative group"><a href="" class="text-[14px] uppercase font-black hover:text-blue-700">news</a>
+                                <ul class="absolute top-full left-0 hidden group-hover:block bg-white w-44">
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./newsrightsidebar.html">news rigth sidebar</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="./newsleftsidebar.html">news left sidebar</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="newsfullwidth.html">news full width</a></li>
+                                    <li><a class="text-[14px] block border-b capitalize px-3 py-2.5 border-b-slate-200  hover:text-blue-700 hover:translate-x-6 hover:transition-transform duration-300 ease-in-out" href="newsdetails.html">news details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html" class="text-[14px] uppercase font-black">contact</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+                <div class="col-span-4">
+                    <div class="flex items-center justify-end gap-5">
+                        
+                        <input type="checkbox" name="" id="search" class="peer hidden">
+                        <label for="search" class="cursor-pointer">
+                            <i class="fa-solid fa-magnifying-glass font-black hover:text-[#3160d8] hidden lg:block"></i>
+                        </label>
+                        <div class="fixed inset-0 z-50 bg-[#121212] opacity-90 -translate-y-full peer-checked:translate-y-0 transition-transform duration-1000 ease-in-out">
+                        
+                            <div class="relative w-2/4 mx-auto flex justify-center items-center h-full">
+                                
+                                <input type="text" name="" id="" class=" bg-transparent border-2 border-white text-white placeholder:text-white px-6 py-5 w-full block mx-auto
+                                 outline-none rounded-full placeholder:text-lg" 
+                                 placeholder="Search...">
+                                 <button><i class="fa-solid fa-magnifying-glass font-black hover:text-[#3160d8] hidden lg:block absolute bottom-[49%] right-6 text-lg text-white"></i></button>
+                            </div>
+                        
+                            <label for="search" class="absolute top-10 right-10 text-white text-xl rounded-full w-11 h-11 flex items-center justify-center hover:ring-bg-[#3160d8] hover:text-[#3160d8] duration-300 transition-colors ring-1 cursor-pointer">X</label>
+                        </div>
+                        <a href="">
+                            <div class="flex gap-2">
+                                <span><img src="./images/flag.png" alt="flag img"></span>
+                                <span class="text-[14px] font-black hover:text-blue-700">ENG</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="flex gap-1">
+                                <span><i class="fa-solid fa-dollar-sign font-black hover:text-blue-700"></i></span>
+                                <span class="text-[14px] font-black hover:text-blue-700">USD</span>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="flex gap-2">
+                                <span><i class="fa-solid fa-circle-user hover:text-blue-700"></i></span>
+                                <span class="text-[14px] font-black hover:text-blue-700 uppercase">account</span>
+                            </div>
+                        </a>
+                        <a href="" class="cart relative"><img src="./images/cart.png" alt=""></a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="bg-white sticky top-0 z-40 block lg:hidden">
+        <div class="header-width w-[85%]">
+            <div class="flex justify-between items-center h-22">
+                <div class="">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="goru"/>
+                    </a>
+                </div>
+                <div class="flex items-center ml-auto gap-4">
+                    <input type="checkbox" id="menu" class="peer hidden">
+                    <label for="menu" class="bg-[#3160d8] text-white  px-3.5 py-3 flex justify-center items-center w-fit">
+                        
+                            <span class="text-sm uppercase mr-1">menu</span>
+                            <span><i class="text-sm fa-solid fa-bars"></i></span>
+                        
+                    </label>
+                
+                    <div class="hidden peer-checked:block lg:hidden top-[17%] h-fit fixed inset-0 z-50 bg-black text-white">
+                        <!-- home -->
+                        <input type="checkbox" name="" id="home" class="peer/home hidden">
+                        <label for="home" class="flex justify-between items-center py-3 px-4 text-base border-b border-b-[#ffffff33] relative group">
+                            <span class="text-sm font-black uppercase hover:text-[#3160d8]">home</span>
+                            <span class="bg-[#ffffff33] px-4 py-3 -my-3 -mr-4  transition group-open:-rotate-180 hover:bg-[#3160d8]"><i class="fa-solid fa-caret-down"></i></span>
+                        </label>
+                        <div class="hidden peer-checked/home:flex flex-col gap-0">
+                            <a href="./index.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">Home One</a>
+                            <a href="./index2.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">Home Two</a>
+                        </div>
+                        <!-- shop -->
+                         <input type="checkbox" name="" id="shop" class="peer/shop hidden">
+                        <label for="shop" class="flex justify-between items-center py-3 px-4 text-base border-b border-b-[#ffffff33] relative group">
+                            <span class="text-sm font-black uppercase hover:text-[#3160d8]">shop</span>
+                            <span class="bg-[#ffffff33] px-4 py-3 -my-3 -mr-4  transition group-open:-rotate-180 hover:bg-[#3160d8]"><i class="fa-solid fa-caret-down"></i></span>
+                        </label>
+                        <div class="hidden peer-checked/shop:flex flex-col gap-0">
+                            <a href="./shopfullwidth.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">shop fullwidth</a>
+                            <a href="./shopleftsidebar.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">shop left sidebar</a>
+                            <a href="./shoprightsidebar.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">shop right sidebar</a>
+                            <a href="./shopdetails.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">shop details</a>
+                            <a href="./cartpage.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">cart page</a>
+                            <a href="./checkout.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">checkout page</a>
+                            <a href="./wishlist.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">wishlist</a>
+                        </div>
+                        <!-- pages -->
+                
+                        <input type="checkbox" name="" id="pages" class="peer/pages hidden">
+                        <label for="pages" class="flex justify-between items-center py-3 px-4 text-base border-b border-b-[#ffffff33] relative group">
+                            <span class="text-sm font-black uppercase hover:text-[#3160d8]">pages</span>
+                            <span class="bg-[#ffffff33] px-4 py-3 -my-3 -mr-4  transition group-open:-rotate-180 hover:bg-[#3160d8]"><i class="fa-solid fa-caret-down"></i></span>
+                        </label>
+                        <div class="hidden peer-checked/pages:flex flex-col gap-0">
+                            <a href="./about.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">about page</a>
+                            <a href="./newsletterspage.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">newsletter page</a>
+                            <a href="./loginregister.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">login register page</a>
+                            <a href="./404error.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">404 page</a>
+                        </div>
+                        <!-- news -->
+                         <input type="checkbox" name="" id="news" class="peer/news hidden">
+                        <label for="news" class="flex justify-between items-center py-3 px-4 text-base border-b border-b-[#ffffff33] relative group">
+                            <span class="text-sm font-black uppercase hover:text-[#3160d8]">news</span>
+                            <span class="bg-[#ffffff33] px-4 py-3 -my-3 -mr-4  transition group-open:-rotate-180 hover:bg-[#3160d8]"><i class="fa-solid fa-caret-down"></i></span>
+                        </label>
+                        <div class="hidden peer-checked/news:flex flex-col gap-0">
+                            <a href="./newsrightsidebar.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">news right sidebar</a>
+                            <a href="./newsleftsidebar.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">news left sidebar</a>
+                            <a href="./newsfullwidth.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">news full width</a>
+                            <a href="./newsdetails.html" class="px-4 py-3 text-sm font-black capitalize bg-[#1d1d1d] border-b border-b-[#ffffff33] outline-none hover:text-[#3160d8]">news details</a>
+                            
+                        </div>
+                        <!-- contact -->
+                
+                        <input type="checkbox" name="" id="contact" class="peer/contact hidden">
+                        <label for="contact" class="flex justify-between items-center py-3 px-4 text-base border-b border-b-[#ffffff33] relative group">
+                            <span class="text-sm font-black uppercase hover:text-[#3160d8]"><a href="./contact.html">contact</a></span>
+                            <span class="bg-[#ffffff33] px-4 py-3 -my-3 -mr-4  transition group-open:-rotate-180 hover:bg-[#3160d8]"><i class="fa-solid fa-caret-down"></i></span>
+                        </label>
+                        
+                
+                
+                    </div>
+                    
+                        <input type="checkbox" name="" id="search" class="peer hidden">
+                        <label for="search" class="cursor-pointer">
+                            <i class="fa-solid fa-magnifying-glass font-black hover:text-[#3160d8] hidden lg:block"></i>
+                        </label>
+                        <div class="fixed inset-0 z-50 bg-[#121212] opacity-90 -translate-y-full peer-checked:translate-y-0 transition-transform duration-1000 ease-in-out">
+                        
+                            <div class="relative w-2/4 mx-auto flex justify-center items-center h-full">
+                                
+                                <input type="text" name="" id="" class=" bg-transparent border-2 border-white text-white placeholder:text-white px-6 py-5 w-full block mx-auto
+                                 outline-none rounded-full placeholder:text-lg" 
+                                 placeholder="Search...">
+                                 <button><i class="fa-solid fa-magnifying-glass font-black hover:text-[#3160d8] hidden lg:block absolute bottom-[49%] right-6 text-lg text-white"></i></button>
+                            </div>
+                        
+                            <label for="search" class="absolute top-10 right-10 text-white text-xl rounded-full w-11 h-11 flex items-center justify-center hover:ring-bg-[#3160d8] hover:text-[#3160d8] duration-300 transition-colors ring-1 cursor-pointer">X</label>
+                        </div>
+                        <a href="" class="cart relative"><img src="./images/cart.png" alt=""></a>
+    
+                    
+                </div>
+                
+                </div>
+                
+                
+            </div>
+        </div>
+    </header>
+
+       <section class="bg-[#ecf3ff]">
+         <div class="py-20 w-4/5 mx-auto">
+             <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                 <div class="relative">
+                    <h2 class="text-4xl font-black capitalize mb-3 relative z-10">blog right sidebar</h2>
+                    <span class="animate-[pulseScale_1.5s_ease-in-out_infinite] duration-700 rounded-full w-10 h-10 inset-0 -left-7 -top-1 bg-[#d3e3fc] absolute"></span>
+                    <div class="uppercase text-sm font-bold tracking-wider"><a href="index.html" class="text-[#8e8d8d] no-underline">Home</a> / blog</div>
+                 </div>
+
+             </div>
+         </div>
+      </section>
+
+      <section class="w-3/4 mx-auto py-28">
+
+        <div class="grid grid-cols-12 gap-12">
+
+            <div class="col-span-12 md:col-span-7 lg:col-span-8">
+                 <div class="grid grid-cols-12 gap-8 mb-9">
+                <div class="col-span-12 md:col-span-12 lg:col-span-6">
+                    <div class="overflow-hidden"><img src="./images/1 blog.jpg" alt="1" class="w-full hover:translate-x-2 ease-in-out transition-transform duration-300"></div>
+                    <div class="flex gap-2 flex-col pt-3">
+                        <p class="text-base text-[#8e8d8d] font-bold">By Admin, 1 week a go</p>
+                        <a href="" class="text-lg font-bold hover:text-[#3160d8]">Nam ac elit a ante commodo Condimentum a vehicula tristique</a>
+                        <a href="" class="text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                        after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                        hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100 uppercase mb-4 tracking-widest">read more</a>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-12 lg:col-span-6">
+                    <div class="overflow-hidden"><img src="./images/2 blog.jpg" alt="2" class="w-full hover:translate-x-2 ease-in-out transition-transform duration-300"></div>
+                    <div class="flex gap-2 flex-col pt-3">
+                        <p class="text-base text-[#8e8d8d] font-bold">By Admin, 1 week a go</p>
+                        <a href="" class="text-lg font-bold hover:text-[#3160d8]">Excepteur sint occaecat cupidatat non proident, sunt in culpa</a>
+                        <a href="" class="text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                        after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                        hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100 uppercase mb-4 tracking-widest">read more</a>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-12 lg:col-span-6">
+                    <div class="overflow-hidden"><img src="./images/3 blog.jpg" alt="3" class="w-full hover:translate-x-2 ease-in-out transition-transform duration-300"></div>
+                    <div class="flex gap-2 flex-col pt-3">
+                        <p class="text-base text-[#8e8d8d] font-bold">By Admin, 1 week a go</p>
+                        <a href="" class="text-lg font-bold hover:text-[#3160d8]">Ut enim ad minim venium eos qui odit lorem telica comuo fira mende</a>
+                        <a href="" class="text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                        after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                        hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100 uppercase mb-4 tracking-widest">read more</a>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-12 lg:col-span-6">
+                    <div class="overflow-hidden"><img src="./images/4 blog.jpg" alt="3" class="w-full hover:translate-x-2 ease-in-out transition-transform duration-300"></div>
+                    <div class="flex gap-2 flex-col pt-3">
+                        <p class="text-base text-[#8e8d8d] font-bold">By Admin, 1 week a go</p>
+                        <a href="" class="text-lg font-bold hover:text-[#3160d8]">Nam ac elit a ante commodo Condimentum a vehicula tristique</a>
+                        <a href="" class="text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                        after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                        hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100 uppercase mb-4 tracking-widest">read more</a>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-12 lg:col-span-6">
+                    <div class="overflow-hidden"><img src="./images/5 blog.jpg" alt="3" class="w-full hover:translate-x-2 ease-in-out transition-transform duration-300"></div>
+                    <div class="flex gap-2 flex-col pt-3">
+                        <p class="text-base text-[#8e8d8d] font-bold">By Admin, 1 week a go</p>
+                        <a href="" class="text-lg font-bold hover:text-[#3160d8]">Excepteur sint occaecat cupidatat non proident, sunt in cul</a>
+                        <a href="" class="text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                        after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                        hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100 uppercase mb-4 tracking-widest">read more</a>
+                    </div>
+                </div>
+
+                <div class="col-span-12 md:col-span-12 lg:col-span-6">
+                    <div class="overflow-hidden"><img src="./images/6 blog.jpg" alt="3" class="w-full hover:translate-x-2 ease-in-out transition-transform duration-300"></div>
+                    <div class="flex gap-2 flex-col pt-3">
+                        <p class="text-base text-[#8e8d8d] font-bold">By Admin, 1 week a go</p>
+                        <a href="" class="text-lg font-bold hover:text-[#3160d8]">Ut enim ad minim venium eos qui odit lorem telica comuo fira mende</a>
+                        <a href="" class="text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                        after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                        hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100 uppercase mb-4 tracking-widest">read more</a>
+                    </div>
+                </div>
+
+            </div>
+           <div class="flex justify-center items-center">
+                <button class="uppercase text-sm px-7 py-3.5 border text-center font-black tracking-widest group relative overflow-hidden">
+                    <span class="left-1/2 top-0 h-full w-0 -translate-x-1/2 bg-[#3160d8] duration-500 transition-all group-hover:w-full absolute"></span>
+                    <span class="relative z-10 group-hover:text-white">view more</span></button></div>
+            </div>
+
+            
+             <div class="col-span-12 md:col-span-5 lg:col-span-4">
+                       <div class="">
+                            <div class="">
+                                <h3 class="text-2xl font-black mb-6">Search</h3>
+                                <div class="flex justify-between items-center">
+                                    <form method="get" action="#" class="shadow w-full md:wfit flex justify-between items-center md:block">
+                                    <input type="search" name="s" id="s" placeholder="Search anything" class="py-1 px-3">
+                                    <button type="submit" class="py-1 px-3">
+                                        <i class="fa-brands fa-sistrix text-[#8e8d8d] text-xl"></i>
+                                    </button>
+                                </form>
+                                </div>
+                            </div>
+                            <div class="mt-10">
+                                <h3 class="text-2xl font-black mb-5">Categories</h3>
+                                <ul>
+                                    <li class="mb-2.5 uppercase font-bold text-sm"><a class="hover:text-[#3160d8] text-[#8e8d8d]" href="#"><i class="fa-solid fa-angle-right text-xs mr-2"></i> Smartphones</a></li>
+                                    <li class="mb-2.5 uppercase font-bold text-sm"><a class="hover:text-[#3160d8] text-[#8e8d8d]" href="#"><i class="fa-solid fa-angle-right text-xs mr-2"></i> Headset</a></li>
+                                    <li class="mb-2.5 uppercase font-bold text-sm"><a class="hover:text-[#3160d8] text-[#8e8d8d]" href="#"><i class="fa-solid fa-angle-right text-xs mr-2"></i> Smartwatch</a></li>
+                                    <li class="mb-2.5 uppercase font-bold text-sm"><a class="hover:text-[#3160d8] text-[#8e8d8d]" href="#"><i class="fa-solid fa-angle-right text-xs mr-2"></i> Drones</a></li>
+                                    <li class="mb-2.5 uppercase font-bold text-sm"><a class="hover:text-[#3160d8] text-[#8e8d8d]" href="#"><i class="fa-solid fa-angle-right text-xs mr-2"></i> Computer Parts</a></li>
+                                </ul>
+                            </div>
+                            <div class="mb-10">
+                                <h3 class="text-2xl font-black mb-5">Recent Post</h3>
+                               <div class="flex flex-col gap-4">
+                                 <div class="grid grid-cols-3 gap-5">
+                                    <div class="col-span-1"><a href="#"><img src="./images/r1blog.jpg" alt="" class=""></a></div>
+                                    <div class="col-span-2">
+                                        <h5 class="text-[15px] font-black hover:text-[#3160d8] text-wrap"><a href="#">Nam ac elit a ante commodo</a></h5>
+                                        <span class="text-[#9fa4af] text-xs font-bold">by <a href="#" class="hover:text-[#3160d8]">admin</a></span>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-5">
+                                    <div class="col-span-1"><a href="#"><img src="./images/r2blog.jpg" alt="" class=""></a></div>
+                                    <div class="col-span-2">
+                                        <h5 class="text-[15px] font-black hover:text-[#3160d8] text-wrap"><a href="#">Tortor nec commodo Condimentum</a></h5>
+                                        <span class="text-[#9fa4af] text-xs font-bold">by <a href="#" class="hover:text-[#3160d8]">admin</a></span>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-3 gap-5">
+                                    <div class="col-span-1"><a href="#"><img src="./images/r3blog.jpg" alt="" class=""></a></div>
+                                    <div class="col-span-2">
+                                        <h5 class="text-[15px] font-black hover:text-[#3160d8] text-wrap"><a href="#">Faucibus sed dolor egetCondimentum vehicula tristique</a></h5>
+                                        <span class="text-[#9fa4af] text-xs font-bold">by <a href="#" class="hover:text-[#3160d8]">admin</a></span>
+                                    </div>
+                                </div>
+                               
+                               </div>
+                            </div>
+                            <div class="">
+                                <h3 class="text-2xl font-black mb-5">Tags</h3>
+                                <div class="flex flex-row md:flex-col gap-3">
+                                    <div class="flex gap-3">
+                                        <a class="text-sm bg-[#f4f4f4] px-3 py-1 hover:bg-[#3160d8] rounded-sm border-none hover:text-[#f4f4f4]" href="#">Phone</a>
+                                        <a class="text-sm bg-[#f4f4f4] px-3 py-1 hover:bg-[#3160d8] rounded-sm border-none hover:text-[#f4f4f4]" href="#">TV</a>
+                                        <a class="text-sm bg-[#f4f4f4] px-3 py-1 hover:bg-[#3160d8] rounded-sm border-none hover:text-[#f4f4f4]" href="#">VRBox</a>
+                                    </div>
+                                    <div class="flex gap-3">
+                                        <a class="text-sm bg-[#f4f4f4] px-3 py-1 hover:bg-[#3160d8] rounded-sm border-none hover:text-[#f4f4f4]" href="#">Headphone</a>
+                                        <a class="text-sm bg-[#f4f4f4] px-3 py-1 hover:bg-[#3160d8] rounded-sm border-none hover:text-[#f4f4f4]" href="#">Drone</a>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+             </div>
+
+        </div>
+
+      </section>
+
+      <div class="w-full h-0.5 bg-[#ecf3ff] mt-10"></div>
+
+    <footer class="bg-[#fdfdfd] ">
+        <div class="w-[85%] mx-auto pt-16">
+            <div class="grid grid-cols-12 gap-4 mb-6">
+                <div class="col-span-12 md:col-span-4 lg:col-span-3">
+                    <div><a href="index.html"><img src="./images/logo.png" alt="logo"/></a></div>
+                    <p class="text-sm text-[#8e8d8d] tracking-widest my-4">
+                      Sed ut perspiciatis unde omnis iste natus er sit voluptatem accusantium dolore.ea commo
+                      do consequat. Duis aute irure dolor in re
+                      prehenderit in. 
+                    </p>
+                    <div class="flex gap-3">
+                                <a href="#" class="text-xl text-[#8e8d8d] hover:text-[#3160d8]"><i class="fa-brands fa-square-facebook"></i></a>
+                                <a href="#" class="text-xl text-[#8e8d8d] hover:text-[#3160d8]"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="text-xl text-[#8e8d8d] hover:text-[#3160d8]"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" class="text-xl text-[#8e8d8d] hover:text-[#3160d8]"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <h3 class="text-lg font-black mb-4">Useful Links</h3>
+                    <ul>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Privacy Policy</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Return Policy</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Blog</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Contact</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-span-12 md:col-span-4 lg:col-span-2">
+                    <h3 class="text-lg font-black mb-4">Account</h3>
+                    <ul>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] tracking-widest inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">My Account</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] tracking-widest inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Log in</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] tracking-widest inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Sign up</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] tracking-widest inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Purchases</a></li>
+                        <li><a href="#" class="text-sm text-[#8e8d8d] tracking-widest inline-block duration-300 hover:translate-x-3 hover:text-black transition-all ease-in-out capitalize">Shipping Address</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-2">
+                    <div class="">
+                            <h3 class="text-lg font-black mb-4">Contact & Address</h3>
+                            <p class="text-sm text-[#8e8d8d] mb-6">
+                                123 Street, Gandy Street, Syracuse
+                                New York - 13221.
+                            </p>
+                            <p class="text-sm text-[#8e8d8d] mb-6">
+                                Phone: +1 315-234-3812
+                                Email: info@goru.com
+                            </p>
+                        </div>
+                </div>
+                <div>
+                    <div class="">
+                            <h3 class="text-lg font-black mb-4">Subscribe</h3>
+                            <form action="#" method="post">
+                                <input type="email" name="email" placeholder="admin@mail.com" class="bg-[#ecf3ff] ps-5 py-2 mb-3">
+                                <button type="submit" class="text-nowrap text-[#3160d8] text-sm font-bold relative w-fit after:absolute after:bottom-0 after:left-0
+                                  after:w-full after:h-0.5 after:bg-[#3160d8] after:origin-left after:transition-transform  after:duration-700
+                                  hover:after:origin-right hover:after:-scale-x-0 after:scale-x-100">
+                                  Subscribe <i class="fa-solid fa-arrow-right-long"></i></button>
+                            </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="w-full h-0.5 bg-[#ecf3ff]"></div>
+            <div class="w-[85%] mx-auto">
+            
+                <div class="flex flex-col md:flex-row justify-between py-7 items-center">
+                    <div class="col-span-12 md:col-span-6">
+                        <ul class="flex gap-3">
+                           <li><a class="text-sm text-[#8e8d8d]" href="#">Privacy Policy</a></li> | 
+                           <li><a class="text-sm text-[#8e8d8d]" href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-span-12 md:col-span-6">
+                        <div class="text-sm text-[#8e8d8d]">
+                            <i class="fa-solid fa-copyright"></i>
+                            Copyright WpSmasher 2020 | All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        
+    </footer>
+    <a href="#top" id="" class="fixed bottom-6 right-6 w-10 h-10 flex items-center justify-center bg-[#3160d8] text-white
+     opacity-0 backTop">
+         <i class="fa-solid fa-angles-up text-sm"></i>
+     </a>
+
+</body>
+</html>
